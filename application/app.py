@@ -9,7 +9,7 @@ hide_sidebar()
 remove_whitespaces()
 
 
-st.title("Certificate Validation System")
+st.title("Gamified Education Certification Validation System")
 st.write("")
 st.subheader("Select Your Role")
 
@@ -25,7 +25,7 @@ with col2:
     clicked_verifier = st.button("Verifier")
 
 if clicked_institute:
-    st.session_state.profile = "Institute"
+    st.session_state.profile = "Gamified Education Verifier"
     switch_page('login')
 elif clicked_verifier:
     st.session_state.profile = "Verifier"
