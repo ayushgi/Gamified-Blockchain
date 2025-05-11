@@ -16,3 +16,4 @@ module.exports = async function (deployer) {
 
   console.log(`Certification contract deployed at address: ${deployedCertification.address}`);
 };
+

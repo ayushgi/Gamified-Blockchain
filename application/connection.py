@@ -11,7 +11,7 @@ def get_contract_abi():
     try:
         with open(certification_json_path, 'r') as json_file:
             certification_data = json.load(json_file)
-            return certification_data.get('abi', [])
+            return certification_data.get('abi', []) 
     except FileNotFoundError:
         print(f"Error: {certification_json_path} not found.")
         return []

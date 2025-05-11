@@ -74,7 +74,7 @@ if selected == options[0]:
         st.success(f"Certificate successfully generated with Certificate ID: {certificate_id}")
 
 else:
-    form = st.form("View-Certificate")
+    form = st.form("View-Certificate") 
     certificate_id = form.text_input("Enter the Certificate ID")
     submit = form.form_submit_button("Submit")
     if submit:

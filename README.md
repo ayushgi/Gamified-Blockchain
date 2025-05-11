@@ -162,5 +162,4 @@ You can either download [Docker Desktop](https://www.docker.com/products/docker-
     This changes the host to "ganache" which is the service defined in docker-compose.yml.
 
     After making these changes, you can build the images using `docker-compose build`. After this, you can use `docker-compose up` to start the containers and `docker-compose down` to stop them.
-
 ---

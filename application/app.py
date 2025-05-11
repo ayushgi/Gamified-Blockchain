@@ -11,7 +11,7 @@ remove_whitespaces()
 
 st.title("Gamified Education Certification Validation System")
 st.write("")
-st.subheader("Select Your Role")
+st.subheader("Select Your Role") 
 
 col1, col2 = st.columns(2)
 institite_logo = Image.open("../assets/institute_logo.png")

@@ -16,7 +16,7 @@ options = ("Verify Certificate using PDF", "View/Verify Certificate using Certif
 selected = st.selectbox("", options, label_visibility="hidden")
 
 if selected == options[0]:
-    uploaded_file = st.file_uploader("Upload the PDF version of the certificate")
+    uploaded_file = st.file_uploader("Upload the PDF version of the certificate") 
     if uploaded_file is not None:
         bytes_data = uploaded_file.getvalue()
         with open("certificate.pdf", "wb") as file:

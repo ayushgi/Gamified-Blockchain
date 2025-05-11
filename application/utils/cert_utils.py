@@ -9,7 +9,7 @@ def generate_certificate(output_path, uid, candidate_name, course_name, org_name
 
     # Create a list to hold the elements of the PDF
     elements = []
-
+ 
     # Add institute logo and institute name
     if institute_logo_path:
         logo = Image(institute_logo_path, width=150, height=150)

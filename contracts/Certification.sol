@@ -80,3 +80,4 @@ contract Certification {
         return bytes(certificates[_certificate_id].ipfs_hash).length != 0;
     }
 }
+
