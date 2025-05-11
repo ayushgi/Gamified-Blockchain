@@ -1,11 +1,3 @@
-# Certificate Validation using Blockchain
-
----
-
-You can read my article on [Medium](https://medium.com/@sahilkadam257/certificate-validation-using-blockchain-3c560fd1738c) to get a better overall understanding of this project.
-
----
-
 ## Introduction
 
 This project provides a Blockchain based solution for generating and verifying digital certificates. The certificate information (uid, candidate_name, course_name, org_name, ipfs_hash) is stored on the blockchain. First, the certificate pdf is generated and stored onto IPFS using Pinata service. Then, the IPFS hash obtained is stored on the blockchain along with other information.
@@ -27,11 +19,6 @@ The system comprises of 2 main entities:
 ---
 
 ## Getting Started
-
-Clone the repository using the command:
-```sh
-git clone https://github.com/Sahil181045/Certificate-Validation-System.git
-```
 You can run the project either through:
 - [Local Setup](#local-setup)
 - [Using Docker](#using-docker) (Recommended)
@@ -175,39 +162,5 @@ You can either download [Docker Desktop](https://www.docker.com/products/docker-
     This changes the host to "ganache" which is the service defined in docker-compose.yml.
 
     After making these changes, you can build the images using `docker-compose build`. After this, you can use `docker-compose up` to start the containers and `docker-compose down` to stop them.
-
----
-
-## Application Screenshots
-
-![Home page](https://github.com/Sahil181045/Certificate-Validation-System/assets/115214968/b808b951-0e1d-479f-a891-621f0fbb374c)
-<p align="center"><em>Home Page</em></p>
-<br></br>
-
-![Login page](https://github.com/Sahil181045/Certificate-Validation-System/assets/115214968/24854c98-9bc3-47eb-a84d-11cf7547812e)
-<p align="center"><em>Login Page</em></p>
-<br></br>
-
-![Generate Certificate Page](https://github.com/Sahil181045/Certificate-Validation-System/assets/115214968/20b1459c-b5f6-4166-8403-d03b247c061f)
-<p align="center"><em>Generate Certificate Page</em></p>
-<br></br>
-
-![View Certificate Page](https://github.com/Sahil181045/Certificate-Validation-System/assets/115214968/fca1a552-5a2d-4870-b9d9-5589da7d1fe4)
-<p align="center"><em>View Certificate Page</em></p>
-<br></br>
-
-![Verify Certificate using Certificate ID](https://github.com/Sahil181045/Certificate-Validation-System/assets/115214968/cd1e91f1-61d8-439b-a486-07a9147d714f)
-<p align="center"><em>Verify Certificate using Certificate ID</em></p>
-<br></br>
-
-![Verify Certificate using Certificate PDF](https://github.com/Sahil181045/Certificate-Validation-System/assets/115214968/11dc4300-3601-4f15-a801-53134e1756fd)
-<p align="center"><em>Verify Certificate using Certificate PDF</em></p>
-<br></br>
-
----
-
-## License
-
-This project is licensed under the MIT license. See the [LICENSE](https://github.com/Sahil181045/Certificate-Validation-System/blob/main/LICENSE) file for more details.
 
 ---

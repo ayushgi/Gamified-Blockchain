@@ -3,3 +3,4 @@
 .vscode
 deployment_config.json
 build/
+myenv
